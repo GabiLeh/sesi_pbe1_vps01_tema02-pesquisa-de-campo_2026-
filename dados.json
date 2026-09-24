@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "sistema": "Assistente de atendimento",
+        "tipo": "empresa",
+        "finalidade": "Responder dúvidas de clientes",
+        "tecnologia": "I.A. generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    
+    {
+        "id": 2,
+        "sistema": "RH",
+        "tipo": "empresa",
+        "finalidade": "Selecionar possíveis curriculos que se encaixam com os críterios da empresa e passar para um humano",
+        "tecnologia": "I.A. generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+        {
+        "id": 3,
+        "sistema": "Entrada e Saída",
+        "tipo": "escola",
+        "finalidade": "Revisar e confirmar a entrada e saída de alunos e professores a partir de um código único pessoal",
+        "tecnologia": "I.A. generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+        {
+        "id": 4,
+        "sistema": "Entrada e Saída",
+        "tipo": "empresa",
+        "finalidade": "Revisar e confirmar a entrada e saída de funcionários a partir de um código único pessoal",
+        "tecnologia": "I.A. generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+
+        {
+        "id": 5,
+        "sistema": "Assistente de trabalho",
+        "tipo": "empresa",
+        "finalidade": "Responder possíveis dúvidas de profissionais",
+        "tecnologia": "I.A. generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistemas</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Sistemas</h1>
+    </header>
+    <main>
+        <form action="http://localhost:3000" method="post">
+            <p>Nome do sistema</p>
+            <input type="text" name="sistema" placeholder="Nome do sistema" required>
+            <p>Tipo do sistema</p>
+            <input type="text" name="tipo" placeholder="Ex.:Escola" required>
+            <p>Finalidade do sistema.</p>
+            <input type="text" name="finalidade" placeholder="Ex.:Responder clientes" required>
+            <p>Tecnologia do sistema</p>
+            <input type="text" name="tecnologia" placeholder="Ex.:I.A. generativa" required><br>
+            <label for="nivel_risco">Nível de risco do sistema.</label><br>
+            <select name="nivel_risco" id="nivel_risco">
+                <option value="baixo">Baixo</option>
+                <option value="medio" selected>Médio</option>
+                <option value="alto">Alto</option>
+            </select><br>
+            <p>O sistema possui revisão humana?<br>Se sim, por favor selecione true, se não, false</p>
+            <select name="possui_revisao_humana" id="possui_revisao_humana">
+                <option value="true">true</option>
+                <option value="false" selected>false</option>
+            </select><br>
+            <input type="submit" value="Enviar" style="margin-left: 501px; ;">
+        </form>
+    </main>
+    <footer>
+        <h3>by GabiLeh</h3>
+    </footer>
+</body>
+</html>
